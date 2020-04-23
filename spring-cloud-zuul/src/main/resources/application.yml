@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: spring-cloud-zuul
+server:
+  port: 8767
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/ #eureka×¢²áÖÐÐÄµØÖ·
+zuul:
+  routes:
+    api-a:
+      path: /api/r/**
+      serviceId: spring-cloud-consumer-ribbon
+    api-b:
+      path: /api/b/**
+      serviceId: spring-cloud-consumer-feign

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-consumer-feign/spring-cloud-consumer-feign.iml" filepath="$PROJECT_DIR$/spring-cloud-consumer-feign/spring-cloud-consumer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-consumer-ribbon/spring-cloud-consumer-ribbon.iml" filepath="$PROJECT_DIR$/spring-cloud-consumer-ribbon/spring-cloud-consumer-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-dependencies.iml" filepath="$PROJECT_DIR$/spring-cloud-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service/spring-cloud-service.iml" filepath="$PROJECT_DIR$/spring-cloud-service/spring-cloud-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" />
+    </modules>
+  </component>
+</project>
